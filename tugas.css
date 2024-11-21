@@ -1,0 +1,97 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    background: rgba(128, 128, 128, 0.242);
+    border-bottom: 1px solid whitesmoke;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 10%;
+    position: fixed;
+}
+
+.link{
+    align-items:flex-end;
+    padding: 15px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 45px;
+    margin-right: 70px;
+}
+
+.link a{
+    color:lightblue;
+    text-decoration: none;
+}
+    
+.link a:hover{
+    color: aqua;
+    transition: all 1s;
+    text-decoration: underline;
+}
+
+.judul{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.button{
+    padding: 7px 15px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 0, 43);
+    background-color: rgba(128, 128, 128, 0.696);
+    color: whitesmoke;
+}
+
+.button:hover{
+    color: rgb(0, 208, 255);
+    background-color: darkorchid;
+    transition: all 0.7s;
+}
+
+.footer{
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgb(61, 60, 60);
+    margin-top: 10px;
+    border-top: 2px solid wheat;
+    border-bottom: 2px solid wheat;
+}
+
+.gambar{
+    justify-content: center;
+    align-items: center;
+    margin-top: 4px;
+    display: flex;
+}
+
+.logo{
+   font-size: 25px;
+   font-weight: bold;
+   display: flex;
+   justify-content: flex-start;
+   align-items: flex-start;
+}
+
+.logo a{
+    text-decoration: none;
+}
+
+.logo a:hover {
+   text-decoration: none;
+}
+
+#ca{
+    color: chartreuse;
+}
+
+#re{
+    color: aquamarine;
+}

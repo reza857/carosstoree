@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tugas.css">
+    <style>
+        .nama{
+        color: chartreuse;
+        }
+
+        .kritiksaran{
+        color: rgb(135, 193, 240);
+        }
+
+        .titikdua{
+        color: wheat;
+        }
+
+        input[type="text"]{
+        border: 5px solid red;
+        background-color: rgb(211, 123, 255);
+        border-radius: 5px;
+        }
+
+        textarea{
+        border: 5px solid crimson;
+        background-color: rgb(214, 52, 214);
+        border-radius: 5px;
+        }
+
+        ::placeholder{
+        color: black;
+        }
+
+        h3{
+        color: rgb(70, 240, 252);
+        }
+
+        .kontak ul{
+        list-style: none;
+        }
+
+        .kontak li{
+        margin-bottom:10px;    
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        }
+
+        @font-face {
+            font-family: ks;
+            src: url(Bungee_Inline,Fascinate_Inline,Irish_Grover,Sixtyfour_Convergence/Fascinate_Inline/FascinateInline-Regular.ttf);
+        }
+
+        h4{
+            font-family: ks;
+            color: rgb(255, 255, 255);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 65px;
+        }
+
+        .x{
+            color: sandybrown;
+        }
+
+        .xx{
+            color: rgb(210, 241, 156);
+        }
+    </style>
+    <title>KONTAK</title>
+</head>
+<body bgcolor="black">
+    
+    <div class="header">
+
+        <nav class="logo">
+         <a href="#"><span id="ca">CAROS</span><span id="re">store</span></a>
+        </nav>
+
+        <div class="link">
+            <a href="index.html">HOME</a>
+            <a href="profil.html">PROFIL</a>
+            <a href="">KONTAK</a>
+        </div>
+        
+    </div>
+
+    <div class="badan">
+    <h4> Punya kritik atau saran tentang website kami ? </h4> 
+
+    <table align="center">
+    <tr>
+    <td><label for="input-nama" class="nama">NAMA</label></td>
+    <td class="titikdua">:</td>
+    <td><input type="text" id="input-nama" placeholder="INPUT NAMA"></td>
+    </tr>
+
+    <tr><td></td></tr>
+
+    <tr>
+    <td valign="top"><label for="kritik / saran" class="kritiksaran">KRITIK / SARAN</label></td>
+    <td class="titikdua" valign="top">:</td>
+    <td><textarea cols="45" rows="4"></textarea></td>
+    </tr>
+
+    <tr><td></td></tr>
+
+    <tr>
+    <td></td>
+    <td></td>
+    <td><button type="submit" class="button">KIRIM</button></td>
+    </tr>
+
+    <tr>
+    <td class="x">ALAMAT</td>
+    <td class="titikdua">:</td>
+    <td class="xx">Jl. Perjuangan No.31 By Pass Kota Cirebon, Jawa Barat</td>
+    </tr>
+    </table>
+
+    <div class="footer">
+        <div class="kontak">
+            <ul>
+            <h3>MY CONTACT</h3>
+            <div class="youtube">
+            <li><a href="#"><img src="logoyoutube.webp" width="70px"></a></li>
+            </div>
+            <div class="twitter">
+            <li><a href="#"><img src="logox.jpg" width="50px"></a></li>
+            </div>
+            <div class="instagram">
+            <li><a href="#"><img src="logoinstagram.webp" width="50px"></a></li>
+            </ul>
+        </div> 
+    </div>
+    </div>
+
+</body>
+</html>
